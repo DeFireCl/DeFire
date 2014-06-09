@@ -1,0 +1,150 @@
+[09-Jun-2014 20:24:55 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:24:55 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:24:58 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:24:58 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:25:45 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:25:45 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:28:05 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:28:05 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:31:36 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:31:36 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:32:09 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:32:09 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:33:26 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:33:26 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:34:38 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:34:38 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:35:22 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:35:22 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:35:51 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(RuntimeException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(RuntimeException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(RuntimeException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object(RuntimeException))
+#5 /home/defirecl/bootstrap/compiled.php(8899): Illuminate\Exception\Handler->handleExcepti in /home/defirecl/bootstrap/compiled.php on line 10631
+[09-Jun-2014 20:35:51 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Could not find resource 'views/layout.html.php' in any resource paths.(searched: /home/defirecl/vendor/laravel/framework/src/Illuminate/Exception/resources, /home/defirecl/public_html/laravel/vendor/filp/whoops/src/Whoops/Handler/../Resources)' in /home/defirecl/bootstrap/compiled.php:10631
+Stack trace:
+#0 /home/defirecl/bootstrap/compiled.php(10513): Whoops\Handler\PrettyPageHandler->getResource('views/layout.ht...')
+#1 /home/defirecl/bootstrap/compiled.php(10361): Whoops\Handler\PrettyPageHandler->handle(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/defirecl/bootstrap/compiled.php(8837): Whoops\Run->handleException(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/defirecl/bootstrap/compiled.php(8943): Illuminate\Exception\WhoopsDisplayer->display(Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#4 /home/defirecl/bootstrap/compiled.php(8895): Illuminate\Exception\Handler->displayException(Object in /home/defirecl/bootstrap/compiled.php on line 10631

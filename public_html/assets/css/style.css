@@ -1,0 +1,100 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	background-image: url(../img/background.png);
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+	height: 600px;
+}
+.logo{
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 115px;
+	margin: 0 auto;
+	top: 1em;
+
+	width: 280px;
+
+	-webkit-animation:gira 3s alternate infinite;
+}
+
+.rectangulo{
+	position: absolute;
+	background-color: rgba(255,255,255,.1);
+	top: 52px;
+	width: 100%;
+	height: 62px;
+}
+
+.container{
+	height: auto;
+	min-height:100%;
+}
+.container:after{
+	width: 100%;
+	height:0px;
+	display:block;
+	clear:both;
+}
+
+.jumbotron{
+	background-color: inherit;
+	color: white;
+}
+
+
+footer{
+	background-color: rgba(200,200,200,.9);
+	display: inline-block;
+
+	width: 100%;
+	height: 100px;
+	bottom:auto;
+
+	text-align: center;
+}
+
+footer p{
+	display: inline-block;
+	margin: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes gira{
+	0% {
+		 -webkit-transform: scaleX(-1);
+		 	-moz-transform: scaleX(-1);
+		 	  -o-transform: scaleX(-1);
+
+		 -webkit-transform: scaleY(1);
+		 	-moz-transform: scaleY(1);
+		 	  -o-transform: scaleY(1);
+		}
+
+	100% {
+		-webkit-transform: scaleY(1);
+		   -moz-transform: scaleY(1);
+		 	 -o-transform: scaleY(1);
+
+		-webkit-transform: scaleX(-1);
+		   -moz-transform: scaleX(-1);
+		 	 -o-transform: scaleX(-1);
+	}
+}

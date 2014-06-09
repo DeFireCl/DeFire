@@ -13,8 +13,8 @@
 
     <footer>
     	<p>© 2013 defire.cl</p>
-    	<p>© 2013 defire.cl</p>
-    	<p>© 2013 defire.cl</p>
+    	<p>© 2013 defire.cl 2</p>
+    	<p>© 2013 defire.cl 3</p>
     </footer>
 
 @stop

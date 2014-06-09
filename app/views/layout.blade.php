@@ -8,7 +8,7 @@
     
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
 
-    <title>@yield('title', 'DeFire | Diseño y Desarrollo Web Freelance')</title>
+    <title>DeFire | @yield('title', 'Diseño y Desarrollo Web Freelance')</title>
     <meta name="description" content="Profesionales Freelance, especializados en el diseño y creación de páginas y sitios web, creamos herramientas y soluciones para tu empresa o proyecto personal." />
     <meta name="keywords" content="desarrollo web, diseño web html5 css, html5, programacion, Chile" />
     <meta name="author" content="Sebastián Silva carrasco">
@@ -44,7 +44,7 @@
 
     @yield('content')
     
-    
+    @include ('footer') 
 
     {{-- jQuery (necessary for Bootstrap's JavaScript plugins) --}}
 

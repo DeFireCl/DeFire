@@ -11,17 +11,30 @@ header{
 	padding: 0;
 	height: 600px;
 }
-.logo{
-	background-image: url(../img/logo.png);
+.logo_flama{
+	background-image: url(../img/flama_blanca.png);
 	background-repeat: no-repeat;
+	display: inline-block;
 	position: relative;
 	height: 115px;
 	margin: 0 auto;
 	top: 1em;
 
-	width: 280px;
+	width: 90px;
 
 	-webkit-animation:gira 3s alternate infinite;
+}
+
+.logo_nombre{
+	background-image: url(../img/defire.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: relative;
+	height: 115px;
+	margin: 0 auto;
+	top: 4.5em;
+
+	width: 240px;
 }
 
 .rectangulo{

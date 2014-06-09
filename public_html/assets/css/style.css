@@ -48,6 +48,24 @@ header{
 	color: white;
 }
 
+/**
+ * Navegación
+ */
+
+.nav {
+	height: 50px;
+	background-color: white;
+}
+
+	.nav li {
+		list-style: none;
+		float: left;
+		padding: 0 30px;
+	}
+
+.nav-link {
+	font-size: 2em;
+}
 
 footer{
 	background-color: rgba(200,200,200,.9);

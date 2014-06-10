@@ -67,10 +67,9 @@ header{
 
 .nav {
 	height: 50px;
+	margin: 100px 0;
 	background-color: white;
-		position: fixed;
-		background-color: white;
-		width: 100%;
+	background-color: white;
 }
 
 	.nav li {
@@ -81,6 +80,9 @@ header{
 
 .nav-link {
 	font-size: 1.6em;
+}
+
+.nav-link:hover {
 	text-decoration: none;
 }
 

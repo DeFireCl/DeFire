@@ -2,7 +2,7 @@
 
 	<div class="logo_flama"></div>
 	<div class="logo_nombre"></div>
-
+	<div class="rectangulo"></div>
 
 	<article class="container">
 		<div class="jumbotron">
@@ -15,7 +15,7 @@
 	<nav class="nav">
    		<ul>
    			<li><a class="nav-link" href="">Inicio</a></li>
-   			<li><a class="nav-link" href="#s1">¿Quienes somos?</a></li>
+   			<li><a class="nav-link" href="">¿Quienes somos?</a></li>
    			<li><a class="nav-link" href="">Portafolio</a></li>
     		<li><a class="nav-link" href="">Contacto</a></li>
    		</ul>

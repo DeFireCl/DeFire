@@ -81,6 +81,7 @@ header{
 
 .nav-link {
 	font-size: 1.6em;
+	line-height: 2.8em;
 }
 
 .nav-link:hover {
@@ -153,4 +154,138 @@ footer p{
 		-o-transform: scaleY(1);
 		-o-transform: scaleX(-1);
 	}
+}
+
+/**
+ * Quienes somos
+ */
+
+
+.rp-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+	cursor: default;
+	box-shadow: 
+    inset 0 0 0 4px rgba(0,0,0,.3),
+    inset 0 0 0 2px rgba(255,255,255,.6),
+    inset 600px 600px 0 -750px rgba(255,255,255,.2),
+    0 0 0 16px rgba(0,0,0,.7),
+    0 0 0 17px rgba(255,255,255,.8),
+    0 1px 2px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.rp-img-1 { background-image: url() }
+.rp-img-2 { background-image: url("../img/people/Matias-Munoz.jpg") }
+
+.rp-info {
+	position: absolute;
+	background: rgba(12,180,247, 0.8);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform: scale();
+	-moz-transform: scale();
+	-ms-transform: scale();
+	-o-transform: scale();
+	transform: scale();
+	-webkit-backface-visibility: hidden;
+}
+
+.rp-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.rp-info p {
+	color: #fff;
+	padding: 10px 5px;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	   -moz-transition: all 1s ease-in-out 0.4s;
+	    -ms-transition: all 1s ease-in-out 0.4s;
+	     -o-transition: all 1s ease-in-out 0.4s;
+	        transition: all 1s ease-in-out 0.4s;
+}
+
+.rp-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.rp-info p a:hover {
+	color: #fff;
+	color: rgba(255,255,255, 0.2);
+}
+
+.rp-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1) }
+
+.rp-item:hover .rp-info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	   -moz-transform: scale(1);
+	    -ms-transform: scale(1);
+	     -o-transform: scale(1);
+	        transform: scale(1);
+}
+
+.rp-item:hover .rp-info p { opacity: 1 }
+
+.rp-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.rp-grid:after,
+.ch-item:before {
+	content: '';
+	display: table;
+}
+
+.rp-grid:after { clear: both }
+
+.rp-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+
+.desc{
+	content: "hola, somos profesionales";
 }

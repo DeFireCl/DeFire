@@ -1,13 +1,15 @@
 @extends ('layout')
 
 @section ('title') Diseño y Desarrollo Web Freelance @stop
+@section ('description') Profesionales Freelance, especializados en el diseño y creación de páginas y sitios web, creamos herramientas y soluciones para tu empresa o proyecto personal.@stop
 
 @section ('content')
+<!-- aquí va contenido-->
 
 	<div class="rectangulo"></div>
 
 	<article class="container">
-		<h1>Contenido</h1>
+		<h2>Defire </h2>
 	</article>
 
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -34,4 +36,6 @@
 	    </div>
 	  </li>
 	</ul>
+
+<!-- fin contenido-->
 @stop

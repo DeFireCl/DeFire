@@ -15,7 +15,7 @@
 	<nav class="nav">
    		<ul>
    			<li><a class="nav-link" href="">Inicio</a></li>
-   			<li><a class="nav-link" href="#s1">¿Quienes somos?</a></li>
+   			<li><a class="nav-link" href="#s1">¿Quiénes somos?</a></li>
    			<li><a class="nav-link" href="">Portafolio</a></li>
     		<li><a class="nav-link" href="">Contacto</a></li>
    		</ul>

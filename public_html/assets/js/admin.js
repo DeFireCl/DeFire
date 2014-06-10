@@ -1,54 +1,6 @@
 $(window).ready(function () {
 
 
-	/* Script Chosen */
-	var config = {
-        '.chosen-select'           : {},
-        '.chosen-select-deselect'  : {allow_single_deselect:true},
-        '.chosen-select-no-single' : {disable_search_threshold:10},
-        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
-        '.chosen-select-width'     : {width:"95%"}
-    }
-
-    for (var selector in config) {
-        $(selector).chosen(config[selector]);
-    }
-
-
-    /* Script Eliminar via AJAX */
-   
-    if ($('.btn-delete').length){
-
-    	$(document).on('click','.btn-delete',function(){
-
-    		var id 		= $(this).data('id');
-			var form 	= $('#form-delete');
-			var action 	= form.attr('action').replace('USER_ID', id);
-			var row 	= $(this).parents('tr');
-
-			$.ajax({
-	            async       :   true,
-	            data 		: 	form.serialize(),
-	            type        :   "post",
-	            url         :   action,
-	            dataType    :   "json", 
-	            success: function(data){
-
-	            	row.hide('slow', function(){
-
-	            		setTimeout (function () {
-		                	row.remove();
-		                	
-		               	}, 3000);
-
-		               	alert(data.msg);
-	            	});				
-
-	            }
-	        });
-    	});
-
-   	}
 
 
    	$(".fecha").datepicker( {   dateFormat: "dd-mm-yy"   });
@@ -58,28 +10,37 @@ $(window).ready(function () {
    		$('.modal').modal('hide')
    	});
 
-   	/* Agregar Representante Empresa */
-   	$(document).on('click', '#addRepEmpresa', function(){
-   		var rut 		= $("#re_rut").val();
-   		var nombre 		= $("#re_nombre").val();
-   		var apellido 	= $("#re_apellido").val();
-   	});
 
-
-
-
-   	// Mostrar Panel hide
-   	$(document).on('click', '#showRepEmp', function(){
-   		$("#addRepEmpresa").show('slow');
-   		$(this).hide();
-   		$("#hideRepEmp").show();
-   	});
-   	// cultar
-   	$(document).on('click', '#hideRepEmp', function(){
-   		$("#addRepEmpresa").hide('slow');
-   		$(this).hide();
-   		$("#showRepEmp").show();
-   	});
+   
+   	// JS MENÚ
+	   	// grab the initial top offset of the navigation 
+		var sticky_navigation_offset_top = $('nav ul').offset().top;
+		
+		// our function that decides weather the navigation bar should have "fixed" css position or not.
+		var sticky_navigation = function(){
+			var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+			
+			// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+			if (scroll_top > sticky_navigation_offset_top) { 
+				$('nav ul').css({ 'position': 'fixed', 'top':0, 'left':0 });
+			} else {
+				$('nav ul').css({ 'position': 'relative' }); 
+			}   
+		};
+		
+		// run our function on load
+		sticky_navigation();
+		
+		// and run it again every time you scroll
+		$(window).scroll(function() {
+			 sticky_navigation();
+		});
+		
+		// NOT required:
+		// for this demo disable all links that point to "#"
+		$('a[href="#"]').click(function(event){ 
+			event.preventDefault(); 
+		});
 
 
 });

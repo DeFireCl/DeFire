@@ -14,12 +14,9 @@
     <meta name="author" content="Sebastián Silva carrasco">
     
     
-    
-
     {{-- Bootstrap --}}
     {{ HTML::style('assets/css/bootstrap.min.css', array('media' => 'screen')) }}
-    {{-- Style --}}
-    {{ HTML::style('assets/css/style.css', array('media' => 'screen')) }}
+    
     
     {{-- jQuery UI v1.9.2--}}
     {{ HTML::style('assets/css/jqueryui.css', array('media' => 'screen')) }}
@@ -28,7 +25,10 @@
     <!--{{ HTML::style('script/chosen/style.css', array('media' => 'screen')) }}-->
     {{ HTML::style('script/chosen/prism.css', array('media' => 'screen')) }}
     {{ HTML::style('script/chosen/chosen.min.css', array('media' => 'screen')) }}
+	
 
+	{{-- Style --}}
+    {{ HTML::style('assets/css/style.css', array('media' => 'screen')) }}
     
 
     {{-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --}}
@@ -42,21 +42,29 @@
 
     @include ('header') 
 
+
+
     @yield('content')
     
-    @include ('footer') 
+    
+	
+	@include ('footer') 
+
+
+
 
     {{-- jQuery (necessary for Bootstrap's JavaScript plugins) --}}
 
     {{-- jQuery 1.11.0 --}}
     {{ HTML::script('assets/js/jquery.min.js') }}
     
-    {{ HTML::script('assets/js/jquery-ui-1.9.2.custom.min.js') }}
+  	{{ HTML::script('assets/js/jquery-ui-1.9.2.custom.min.js') }}
 
     {{-- Include all compiled plugins (below), or include individual files as needed --}}
     {{ HTML::script('assets/js/bootstrap.min.js') }}    
     {{ HTML::script('script/chosen/chosen.jquery.min.js') }}
     {{ HTML::script('script/chosen/prism.js') }}
+
     {{ HTML::script('assets/js/admin.js') }}
 
   </body>

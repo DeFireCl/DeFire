@@ -16,6 +16,10 @@ Route::get('/', function()
 	return View::make('index');
 });
 
+Route::get('/nosotros', function(){
+	return View::make('nosotros');
+});
+
 
 # Rutas de Inicio de sesión
 Route::get('admin/login', 'AuthController@showLogin');

@@ -33,10 +33,7 @@
   </head>
   <body>
 
-    @include ('header') 
-
-
-
+    
     @yield('content')
     
     

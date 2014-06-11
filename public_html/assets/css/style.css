@@ -11,7 +11,11 @@ header{
 	background-repeat: repeat;
 	margin: 0;
 	padding: 0;
-	height: 400px;
+	min-height: 150px;
+}
+
+header .container{
+	height: 350px;
 }
 .logo_flama{
 	background-image: url(../img/flama_blanca.png);
@@ -65,6 +69,9 @@ header{
 .jumbotron{
 	background-color: inherit;
 	color: #FFEDEC;
+	/*color: #33D162;*/
+	text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	margin-bottom: 0;
 }
 
 /**
@@ -73,14 +80,28 @@ header{
 
 .nav {
 	height: 60px;
-	margin: 20px 0;
-	background-color: #FF8785;
+	margin: 0;
+	background-color: #FFF0EF;
+	background-color: #33D162;
+}
+
+.nav::after{
+	/*background-color: rgba(178,2,0,.8);*/
+	background-color: #05FF50;
+	content: " ";
+	height: .5em;
+	color : #ccc;
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
 }
 
 .nav li {
 	list-style: none;
 	float: left;
 	padding: 0 30px;
+	height: auto;
 }
 
 .nav-link {

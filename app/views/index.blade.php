@@ -6,36 +6,32 @@
 @section ('content')
 <!-- aquí va contenido-->
 
-	<div class="rectangulo"></div>
+	<header>
+
+		<div class="logo_flama"></div>
+		<div class="logo_nombre"></div>
+		<div class="rectangulo"></div>
+
+		<article class="container">
+			<div class="jumbotron">
+				<h1>¡ Desarrollo y Diseño Web Freelance !</h1>
+				<p>Somos un grupo de profesionales freelance, expertos en el diseño y desarrollo de sitios web !</p>
+				<p class='desc'></p>
+			</div>
+		</article>
+	</header>
+
+	@include ('menu')
 
 	<article class="container">
-		<h2>Defire </h2>
-	</article>
+		<h2>Servicios</h2>
 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	fin contenido
-	<ul class="rp-grid">
-	    <li>
-	    <div class="rp-item rp-img-1">
-	      <div class="rp-info">
-	        <h3>SEBASTIAN SILVA</h3>
-	        <p>CHIEF CREATIVE OFFICER<a href="">Follow on Twitter</a></p>
-	      </div>
-	    </div>
-	  </li>
-	  <li>
-	    <div class="rp-item rp-img-2">
-	      <div class="rp-info">
-	        <h3>MATÍAS MUÑOZ</h3>
-	        <p>CHIEF CREATIVE OFFICER<a href="">Follow on Twitter</a></p>
-	      </div>
-	    </div>
-	  </li>
-	</ul>
+		<div class='servicios'>
+			<div class='srv'>srv uno</div>
+			<div class='srv'>srv dos</div>
+			<div class='srv'>srv tres</div>
+		</div>
+	</article>
 
 <!-- fin contenido-->
 @stop

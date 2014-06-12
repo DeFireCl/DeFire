@@ -81,13 +81,17 @@ header .container{
 nav {
 	min-height: 60px;
 	margin: 0;
-	background-color: #FFF0EF;
-	background-color: #33D162;
+	/* background-color: #FFF0EF;
+	background-color: #33D162;*/
+	background-color: rgba(51, 209, 98, 0.8);
+	font-family: 'Lobster', cursive;
 }
 
 nav::after{
 	/*background-color: rgba(178,2,0,.8);*/
-	background-color: #05FF50;
+	/*background-color: #05FF50; */
+	background-color: rgba(5, 255, 80, .5);
+
 	content: " ";
 	height: .5em;
 
@@ -125,7 +129,7 @@ footer{
 	display: inline-block;
 
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	bottom:auto;
 
 	text-align: center;
@@ -185,20 +189,20 @@ footer p{
 	}
 }
 
-
-
-
-
 /**
- * Quienes somos
+ * Nosotros
  */
 
+.nosotros {
+	height: 500px;
+	padding-top: 80px;
+}
 
 .rp-item {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
 	cursor: default;
 	box-shadow: 
     inset 0 0 0 4px rgba(0,0,0,.3),
@@ -315,7 +319,7 @@ footer p{
 	width: 220px;
 	height: 220px;
 	display: inline-block;
-	margin: 20px;
+	margin: 50px;
 }
 
 
@@ -341,9 +345,15 @@ footer p{
 }
 
 .srv{
-	background-color: #33D162;
+	/*background-color: #33D162;*/
+	background-color: rgba(51,209,98,0.8);
 	display: inline-block;
 	width: 20%;
 	margin: 2% 5%;
 	vertical-align: top;
+}
+
+.descsrv ul {
+	padding: 0;
+	list-style: none;
 }

@@ -35,12 +35,8 @@
 
     
     @yield('content')
-    
-    
 	
-	@include ('footer') 
-
-
+	@include ('include/footer') 
 
 
     {{-- jQuery (necessary for Bootstrap's JavaScript plugins) --}}

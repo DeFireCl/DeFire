@@ -20,6 +20,14 @@ Route::get('/nosotros', function(){
 	return View::make('nosotros');
 });
 
+Route::get('/servicios', function(){
+	return View::make('servicios');
+});
+
+Route::get('/tecnologias', function(){
+	return View::make('tec');
+});
+
 
 # Rutas de Inicio de sesión
 Route::get('admin/login', 'AuthController@showLogin');

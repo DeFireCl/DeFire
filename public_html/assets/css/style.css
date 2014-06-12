@@ -15,7 +15,7 @@ header{
 }
 
 header .container{
-	height: 350px;
+	height: 300px;
 }
 .logo_flama{
 	background-image: url(../img/flama_blanca.png);
@@ -78,26 +78,28 @@ header .container{
  * Navegación
  */
 
-.nav {
-	height: 60px;
+nav {
+	min-height: 60px;
 	margin: 0;
 	background-color: #FFF0EF;
 	background-color: #33D162;
 }
 
-.nav::after{
+nav::after{
 	/*background-color: rgba(178,2,0,.8);*/
 	background-color: #05FF50;
 	content: " ";
 	height: .5em;
+
 	color : #ccc;
+
 	width: 100%;
 
 	margin: 0;
 	padding: 0;
 }
 
-.nav li {
+nav li {
 	list-style: none;
 	float: left;
 	padding: 0 30px;
@@ -105,11 +107,13 @@ header .container{
 }
 
 .nav-link {
+	color: white;
 	font-size: 1.6em;
 	line-height: 2.8em;
 }
 
 .nav-link:hover {
+	color: white;
 	text-decoration: none;
 }
 
@@ -180,6 +184,10 @@ footer p{
 		-o-transform: scaleX(-1);
 	}
 }
+
+
+
+
 
 /**
  * Quienes somos
@@ -311,6 +319,31 @@ footer p{
 }
 
 
-.desc{
-	content: "hola, somos profesionales";
+
+
+
+/* servicios */
+
+.container_servicios{
+	background-image: url(../img/bg_srv.jpg);
+	color: white;
+	min-height: 400px;
+}
+.container_servicios h2{
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 3%;
+}
+.servicios{
+	text-align: center;
+
+}
+
+.srv{
+	background-color: #33D162;
+	display: inline-block;
+	width: 20%;
+	margin: 2% 5%;
+	vertical-align: top;
 }

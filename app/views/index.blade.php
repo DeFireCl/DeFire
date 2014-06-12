@@ -21,15 +21,41 @@
 		</article>
 	</header>
 
-	@include ('menu')
+	@include ('include/menu')
 
-	<article class="container">
+	<article class="container_servicios">
+		
 		<h2>Servicios</h2>
 
 		<div class='servicios'>
-			<div class='srv'>srv uno</div>
-			<div class='srv'>srv dos</div>
-			<div class='srv'>srv tres</div>
+			<div class='srv'>
+				<p class='titlesrv'>Diseño Web</p>
+				<div class='descsrv'>
+					<ul>
+						<li>Resposive Design</li>
+						<li>Diseño Web Móvil</li>
+						<li>Diseño web Básico</li>
+						<li>Diseño Web Corporativo</li>
+						<li>Diseño Web Empresarial</li>
+					</ul>
+
+					<a href="/servicios">ver más</a>
+				</div>
+			</div>
+
+			<div class='srv'>
+				<p class='titlesrv'>Desarrollo Web</p>
+				<div class='descsrv'>
+					<ul>
+						<li>Tiendas Online</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class='srv'>
+				<p class='titlesrv'>Desarrollo Sistemas Web</p>
+				<div class='descsrv'></div>
+			</div>
 		</div>
 	</article>
 

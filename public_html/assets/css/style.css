@@ -81,6 +81,7 @@ header .container{
 nav {
 	min-height: 60px;
 	margin: 0;
+	z-index: 1;
 	/* background-color: #FFF0EF;
 	background-color: #33D162;*/
 	background-color: rgba(51, 209, 98, 0.8);
@@ -108,16 +109,17 @@ nav li {
 	float: left;
 	padding: 0 30px;
 	height: auto;
+	text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 }
 
 .nav-link {
-	color: white;
+	color: #FFEDEC;
 	font-size: 1.6em;
 	line-height: 2.8em;
 }
 
 .nav-link:hover {
-	color: white;
+	color: #FFEDEC;
 	text-decoration: none;
 }
 
@@ -196,6 +198,7 @@ footer p{
 .nosotros {
 	height: 500px;
 	padding-top: 80px;
+	background-image: url("../img/bg/pattern8-pattern-61b.png");
 }
 
 .rp-item {
@@ -223,7 +226,7 @@ footer p{
 
 .rp-info {
 	position: absolute;
-	background: rgba(12,180,247, 0.8);
+	background: rgba(178,47,45,.5);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;

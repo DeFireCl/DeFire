@@ -125,7 +125,7 @@ footer{
 	display: inline-block;
 
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	bottom:auto;
 
 	text-align: center;
@@ -133,7 +133,7 @@ footer{
 
 footer p{
 	display: inline-block;
-	margin: 2em;
+	margin: 1em;
 }
 
 
@@ -329,11 +329,16 @@ footer p{
 	color: white;
 	min-height: 400px;
 }
+
 .container_servicios h2{
 	width: 100%;
 	text-align: center;
 	margin-top: 0;
 	padding-top: 3%;
+}
+
+.container_servicios a:hover{
+	color: rgb(66,255,125);
 }
 .servicios{
 	text-align: center;
@@ -341,9 +346,27 @@ footer p{
 }
 
 .srv{
-	background-color: #33D162;
+	background-color: rgba(66,255,125,.3);
 	display: inline-block;
 	width: 20%;
 	margin: 2% 5%;
+	padding: 0.5em;
 	vertical-align: top;
+
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+	-moz-box-shadow: 5px 4px 15px #000000;
+	-webkit-box-shadow: 5px 4px 15px #000000;
+	box-shadow: 5px 4px 15px #000000;
+
+}
+
+.titlesrv{
+	font-size: 1.2em;
+}
+
+.descsrv ul li{
+	text-align: left;
 }

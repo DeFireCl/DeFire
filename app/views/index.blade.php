@@ -32,11 +32,14 @@
 				<p class='titlesrv'>Diseño Web</p>
 				<div class='descsrv'>
 					<ul>
-						<li>Resposive Design</li>
 						<li>Diseño Web Móvil</li>
 						<li>Diseño web Básico</li>
 						<li>Diseño Web Corporativo</li>
 						<li>Diseño Web Empresarial</li>
+
+						<li>Resposive Design</li>
+						<li>Diseño SEO</li>
+
 					</ul>
 
 					<a href="/servicios">ver más</a>

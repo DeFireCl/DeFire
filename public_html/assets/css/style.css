@@ -82,15 +82,13 @@ nav {
 	min-height: 60px;
 	margin: 0;
 	z-index: 1;
-	/* background-color: #FFF0EF;
-	background-color: #33D162;*/
+
 	background-color: rgba(51, 209, 98, 0.8);
 	font-family: 'Lobster', cursive;
 }
 
 nav::after{
-	/*background-color: rgba(178,2,0,.8);*/
-	/*background-color: #05FF50; */
+
 	background-color: rgba(5, 255, 80, .5);
 
 	content: " ";
@@ -131,11 +129,7 @@ footer{
 	display: inline-block;
 
 	width: 100%;
-<<<<<<< HEAD
 	height: 150px;
-=======
-	height: 80px;
->>>>>>> origin/master
 	bottom:auto;
 
 	text-align: center;
@@ -145,12 +139,6 @@ footer p{
 	display: inline-block;
 	margin: 1em;
 }
-
-
-
-
-
-
 
 
 
@@ -356,19 +344,14 @@ footer p{
 
 }
 
-.srv{
-<<<<<<< HEAD
-	background-color: rgba(66,255,125,.3);
-=======
-	/*background-color: #33D162;*/
-	background-color: rgba(51,209,98,0.8);
->>>>>>> origin/master
+.srv{	
+	background-color: rgba(51,209,98,0.6);
+	
 	display: inline-block;
 	width: 20%;
 	margin: 2% 5%;
 	padding: 0.5em;
 	vertical-align: top;
-<<<<<<< HEAD
 
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
@@ -386,11 +369,9 @@ footer p{
 
 .descsrv ul li{
 	text-align: left;
-=======
 }
 
 .descsrv ul {
 	padding: 0;
 	list-style: none;
->>>>>>> origin/master
 }

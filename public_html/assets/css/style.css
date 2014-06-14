@@ -79,11 +79,10 @@ header .container{
  */
 
 nav {
+	background-color: rgba(51, 209, 98, 0.8);
 	min-height: 60px;
 	margin: 0;
-	z-index: 1;
-
-	background-color: rgba(51, 209, 98, 0.8);
+	z-index: 1;		
 	font-family: 'Lobster', cursive;
 }
 

@@ -17,6 +17,7 @@ header{
 header .container{
 	height: 300px;
 }
+
 .logo_flama{
 	background-image: url(../img/flama_blanca.png);
 	background-repeat: no-repeat;
@@ -84,8 +85,11 @@ nav {
 	margin: 0;
 	z-index: 1;		
 	font-family: 'Lobster', cursive;
+	border-top: 10px dashed #65B27D;
+	border-bottom: 10px dashed #65B27D;
+	box-shadow: #42FF7D 0px 0px 30px;
 }
-
+/*
 nav::after{
 
 	background-color: rgba(5, 255, 80, .5);
@@ -100,7 +104,7 @@ nav::after{
 	margin: 0;
 	padding: 0;
 }
-
+*/
 nav li {
 	list-style: none;
 	float: left;
@@ -333,6 +337,10 @@ footer p{
 	text-align: center;
 	margin-top: 0;
 	padding-top: 3%;
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	color: #FFEDEC;
 }
 
 .container_servicios a:hover{
